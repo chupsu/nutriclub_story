@@ -193,7 +193,7 @@
                   </label>
                 </div>
                 <div class="story-form__item story-form__item_col-2">
-                  <select data-class-modif="story-gen" data-show-selected data-scroll="144">
+                  <select data-class-modif="story-gen" data-show-selected data-scroll="166">
                     <option value="" selected>Музыкальный стиль</option>
                     <option value="11">Стиль</option>
                     <option value="22">Тот самый голос из знаменитого мультфильма своего детства для переноса текста выбора на две строки</option>
@@ -224,7 +224,49 @@
                   <span></span><span></span><span></span><span></span>
                   </div>
                 <p class="story-form__loader-title">Происходит волшебство</p>
-                <p class="story-form__loader-text">Не обновляйте страницу...</p>
+                <div class="story-form__loader-text">
+                  <div class="loader-text">
+                    <div class="loader-text__items">
+                      <div class="loader-text__item">Собираем звёзды для колыбельной… ✨</div>
+                      <div class="loader-text__item">Плетём мелодию из лунного света… 🌙</div>
+                      <div class="loader-text__item">Добавляем шёпот ночного ветра… 🍃</div>
+                      <div class="loader-text__item">Ищем самые нежные ноты… 🎵</div>
+                      <div class="loader-text__item">Проверяем, чтобы мишки не храпели… 🧸</div>
+                      <div class="loader-text__item">Сверяем ритм с биением сердца… 💤</div>
+                      <div class="loader-text__item">Укутываем звуки в тёплое одеяло… 🛌</div>
+                      <div class="loader-text__item">Рисуем сны в нотах… 🌠</div>
+                      <div class="loader-text__item">Гладим диссонансы за ушком… 🐇</div>
+                      <div class="loader-text__item">Заводим музыкальную шкатулку… 🎶</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- добавить скрипт для Swiper -->
+                <!-- <script>
+                  if (document.querySelector(".loader-text")) {
+                    new Swiper(".loader-text", {
+                      // modules: [Autoplay, EffectFade],
+                      // модули под вопросом, должно работать без них
+                      slidesPerView: 1,
+                      effect: "fade",
+                      fadeEffect: {
+                        crossFade: true,
+                      },
+                      loop: true,
+                      speed: 500,
+                      autoplay: {
+                        delay: 11000,
+                        disableOnInteraction: false,
+                      },
+                      observeParents: true,
+                      allowTouchMove: false,
+                      wrapperClass: "loader-text__items",
+                      slideClass: "loader-text__item",
+                      slideActiveClass: "loader-text__item_active",
+                      slidePrevClass: "loader-text__item_prev",
+                      slideNextClass: "loader-text__item_next",
+                    });
+                  }
+                </script> -->
               </div>
             </form>
           </div>
@@ -255,6 +297,19 @@
                 </a>
               </div>
             </article>
+          </div>
+          <div class="story-info">
+            <div class="story-info__main">
+              <div class="story-info__text">
+                Мы храним ваш аудиофайл в течение <span>15 дней</span> с момента создания
+              </div>
+              <div class="story-info__desc">
+                Чтобы колыбельная не потерялась, скачайте её
+              </div>
+            </div>
+            <div class="story-info__alert">
+              Колыбельные создаются с помощью искусственного интеллекта и могут содержать неточности. Пожалуйста, проверьте аудио перед тем, как включать его малышу, чтобы убедиться, что всё звучит уютно и безопасно.
+            </div>
           </div>
         </div>
       </div>
